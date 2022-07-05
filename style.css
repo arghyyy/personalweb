@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("./bg.jpg");
+    background-size: cover;
+    /* width: 100vh; */
+    /* height: 100vh; */
+    background-position: bottom;
+}
+
+.box{
+    width: 100%;
+    background: rgba(5, 5, 5, 0);
+    /* padding: 500px; */
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 153px;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.box-img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: -20px;
+}
+
+.box-img:hover{
+    cursor: pointer;
+    transform: scale(1.87);
+    transition: all 1s ease;
+}
+
+.box h1{
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.box h2{
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+
+.description{
+    text-align: justify;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    font-weight: normal;
+    padding: 0 350px 
+}
+/* padding itu jarak di dalam
+0 = padding atas bawah
+300px = padding kiri kanan */
+
+ul{
+    /* margin: 0; */
+    padding: 0;
+}
+
+.box li{
+    display: inline-block;
+    margin: 8px;
+    list-style: none;
+}
+
+.box li a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.box li a:hover{
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
